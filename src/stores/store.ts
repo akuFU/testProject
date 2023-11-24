@@ -179,7 +179,7 @@ export const useStore = defineStore('store', () => {
 
 	}
 
-	function setValue(index: number, type: string) {
+	function setValue(index: number) {
 
 		if (arrInd.value == "bic" && bicVol.value.length > 0) {
 
